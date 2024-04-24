@@ -215,9 +215,11 @@ classDiagram
 ```
 
 
-## Contributors
-
-- Yugal Bharat Lakhyani: lakhyani.y@northeastern.edu
-- Anup Balasaheb Pote: pote.a@northeastern.edu
-- Sayantika Pal: pal.sayan@northeastern.edu
-- Jayanti Hari: lnu.jay@northeastern.edu
+## Instructions to execute the project:
+1. Clone the repository
+2. Navigate to service directory and add .env file for MongoDB connection (port: 3000)
+3. Execute the command: npm install
+4. Execute the command to start backend server: node server.js
+5. Navigate to app directory and execute the command: npm install
+6. Execute the command to start the front end server: npm run dev
+7. Open the localhost link on the browser to view the application
