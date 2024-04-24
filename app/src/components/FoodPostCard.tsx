@@ -25,7 +25,7 @@ import  { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import axios from 'axios';
 import { useTranslation } from 'react-i18next';
-
+import config from '../config.json';
 
 // Defined props interface for FoodPostCard component
 interface FoodPostCardProps {
@@ -155,7 +155,7 @@ const FoodPostCard: React.FC<FoodPostCardProps> = ({
  // Function to retrieve location coordinates from Google Maps API
 
   const getLocationCoordinates = async (location: string) => {
-    const apiKey = 'AIzaSyDr9XJocHD_zMbbXQJdghMxk50g9N-nvKk';
+    const apiKey = config.googleMapsApiKey;
     const encodedLocation = encodeURIComponent(location);
     const url = `https://maps.googleapis.com/maps/api/geocode/json?address=${encodedLocation}&key=${apiKey}`;
 
