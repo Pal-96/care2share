@@ -1,7 +1,9 @@
 # Care2Share
 ## Description:
 Welcome to 'Care2Share', an innovative web application dedicated to combating food scarcity and hunger on a global scale. Our platform serves as a dynamic hub where individuals, organizations, and NGOs come together to share and collect surplus food, organize events, donate resources, and raise awareness about pressing issues surrounding hunger relief. With a focus on community engagement and collaboration, Care2Share empowers users to make a meaningful impact in the fight against hunger."
- 
+
+![LandingPage](https://github.com/Pal-96/care2share-finalproject/assets/119008696/3bcb2279-7572-45d1-b24d-66c4f4ef65e3)
+
 ## Key Features:
  
 1. User Authentication and Profiles:
@@ -217,9 +219,11 @@ classDiagram
 
 ## Instructions to execute the project:
 1. Clone the repository
-2. Navigate to service directory and add .env file for MongoDB connection (port: 3000)
-3. Execute the command: npm install
-4. Execute the command to start backend server: node server.js
-5. Navigate to app directory and execute the command: npm install
-6. Execute the command to start the front end server: npm run dev
-7. Open the localhost link on the browser to view the application
+2. Navigate to service directory in local machine and add .env file for MongoDB connection (port: 3000)
+3. Open terminal and change to **service** directory
+4. Execute the command: npm install
+5. Execute the command to start backend server: node server.js (Note: Message 'Server is running on port 3000' must be printed on terminal)
+6. Open new terminal and change to **app** directory
+7. Execute the command: npm install
+8. Execute the command to start the front end server: npm run dev
+9. Open the localhost link on the browser to view the application
