@@ -13,7 +13,7 @@ function App() {
       <Container maxWidth={false} disableGutters>
         <div>
           <Header location={location} />
-          <Box mt={2} mb={10} p={10}>
+          <Box mb={10} p={0}>
             <Outlet />
           </Box>
           <Footer />

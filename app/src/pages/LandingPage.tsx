@@ -18,7 +18,7 @@ const LandingPage: React.FC = () => {
 
   return (
     <>
-    {user && <Header location={location} />}
+    {/* {user && <Header location={location} />} */}
       <Box sx={{ bgcolor: 'background.default', pt: 30, pb: 30,
         backgroundImage: "url('../../public/images/background-img.jpg')",
         backgroundSize: "cover",
