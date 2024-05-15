@@ -220,19 +220,14 @@ classDiagram
 ## Steps to set up config.json
 This project requires a configuration file (config.json) to store Google Maps Api Key. This file is ignored by Git to ensure the key remains private.
 1. Create config.json in the app/src directory of the project.
-   Example of the content:
-   {
-       "googleMapsApiKey": "YOUR_API_KEY_HERE"
-   }
+<img width="895" alt="image" src="https://github.com/Pal-96/care2share-finalproject/assets/119008696/1a025322-ec27-4f77-b9a7-21c98fcda715">
 2. Replace YOUR_API_KEY_HERE with the actual API key.
 3. Save the file.
 
 ## Steps to set up .env
 This project requires a .env file to store the server port no. and your MongoDB connection parameters. This file is ignored by Git to ensure your connection is private.
 1. Create .env file in the service directory of the project.
-   Example of the content:
-   SERVER_PORT=3000
-   MONGO_CONNECTION=mongodb+srv://<username>:<password>@<cluster-url>/<database>?retryWrites=true&w=majority&appName=<appName>
+<img width="895" alt="env" src="https://github.com/Pal-96/care2share-finalproject/assets/119008696/f40e3345-e6db-4f85-ac84-53ad2a35115a">
 2. Replace the placeholders with actual data.
 3. Save the file.
 
