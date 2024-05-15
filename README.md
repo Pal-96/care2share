@@ -31,7 +31,8 @@ Users can publish blogs addressing food scarcity and hunger relief, sharing insi
 The platform facilitates user engagement through likes and comments to amplify awareness efforts.
  
 6. Email Notifications & Map Functionality:
- Users receive email notifications after creating Foodposts. NGO users get email notifications after booking the food post with map locations which leverages Google Map API and EmailJS.
+
+Users receive email notifications after creating Foodposts. NGO users get email notifications after booking the food post with map locations which leverages Google Map API and EmailJS.
 
 ## Object Model
 
