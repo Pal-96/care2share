@@ -2,7 +2,7 @@
 ## Description:
 Welcome to 'Care2Share', an innovative web application dedicated to combating food scarcity and hunger on a global scale. Our platform serves as a dynamic hub where individuals, organizations, and NGOs come together to share and collect surplus food, organize events, donate resources, and raise awareness about pressing issues surrounding hunger relief. With a focus on community engagement and collaboration, Care2Share empowers users to make a meaningful impact in the fight against hunger."
 
-<img src="https://github.com/Pal-96/care2share-finalproject/assets/119008696/3bcb2279-7572-45d1-b24d-66c4f4ef65e3" style="border: 2px solid black;" alt="LandingPage">
+<img src="https://github.com/Pal-96/care2share-finalproject/assets/119008696/3bcb2279-7572-45d1-b24d-66c4f4ef65e3" style="border: 10px solid black;" alt="LandingPage">
 
 ## Key Features:
  
