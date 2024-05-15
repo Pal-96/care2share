@@ -220,7 +220,7 @@ classDiagram
 ## Steps to set up config.json
 This project requires a configuration file (config.json) to store Google Maps Api Key. This file is ignored by Git to ensure the key remains private.
 1. Create config.json in the app/src directory of the project.
-<img width="895" alt="image" src="https://github.com/Pal-96/care2share-finalproject/assets/119008696/1a025322-ec27-4f77-b9a7-21c98fcda715">
+<img width="389" alt="config" src="https://github.com/Pal-96/care2share-finalproject/assets/119008696/80504f06-6a2c-4e6d-bab1-31a59dd5dfa8">
 2. Replace YOUR_API_KEY_HERE with the actual API key.
 3. Save the file.
 
