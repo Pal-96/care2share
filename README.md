@@ -227,8 +227,7 @@ This project requires a configuration file (config.json) to store Google Maps Ap
 
 ## Steps to set up .env
 This project requires a .env file to store the server port no. and your MongoDB connection parameters. This file is ignored by Git to ensure your connection is private.
-1. Create .env file in the service directory of the project.
-<br/>
+1. Create .env file in the service directory of the project.<br/>
 <img width="895" alt="env" src="https://github.com/Pal-96/care2share-finalproject/assets/119008696/f40e3345-e6db-4f85-ac84-53ad2a35115a">
 <br/>
 2. Replace the placeholders with actual data.<br/>
