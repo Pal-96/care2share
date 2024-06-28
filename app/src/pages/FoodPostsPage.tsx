@@ -12,6 +12,7 @@ import { Footer } from '../pages/Footer';
  import axios from 'axios';
  import AddIcon from '@mui/icons-material/Add';
  import { useTranslation } from 'react-i18next';
+ import config from '../config.json';
 
 
 interface FoodPostsPageProps {}
@@ -60,9 +61,9 @@ const FoodPostsPage: React.FC<FoodPostsPageProps> = () => {
 
 // Function to get location coordinates using Google Maps API
   const getLocationCoordinates = async (location: string) => {
-    const apiKey = 'AIzaSyDr9XJocHD_zMbbXQJdghMxk50g9N-nvKk';
+    const { googleMapsApiKey } = config;
     const encodedLocation = encodeURIComponent(location);
-    const url = `https://maps.googleapis.com/maps/api/geocode/json?address=${encodedLocation}&key=${apiKey}`;
+    const url = `https://maps.googleapis.com/maps/api/geocode/json?address=${encodedLocation}&key=${googleMapsApiKey}`;
 
     try {
       const response = await axios.get(url);

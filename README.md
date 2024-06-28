@@ -34,6 +34,34 @@ The platform facilitates user engagement through likes and comments to amplify a
 
 Users receive email notifications after creating Foodposts. NGO users get email notifications after booking the food post with map locations which leverages Google Map API and EmailJS.
 
+## Steps to set up config.json
+This project requires a configuration file (config.json) to store Google Maps Api Key. This file is ignored by Git to ensure the key remains private.
+1. Create config.json in the app/src directory of the project (refer the template file).<br/>
+<img width="389" alt="config" src="https://github.com/Pal-96/care2share-finalproject/assets/119008696/80504f06-6a2c-4e6d-bab1-31a59dd5dfa8">
+<br/>
+2. Replace YOUR_API_KEY_HERE with the actual API key.<br/>
+3. Save the file.
+
+## Steps to set up .env
+This project requires a .env file to store the server port no. and your MongoDB connection parameters. This file is ignored by Git to ensure your connection is private.
+1. Create .env file in the service directory of the project (refer the template file).<br/>
+<img width="895" alt="env" src="https://github.com/Pal-96/care2share-finalproject/assets/119008696/f40e3345-e6db-4f85-ac84-53ad2a35115a">
+<br/>
+2. Replace the placeholders with actual data.<br/>
+3. Save the file.
+
+## Instructions to execute the project:
+1. Clone the repository
+2. Navigate to service directory in local machine and add .env file for MongoDB connection (port: 3000)
+3. Open terminal and change to **service** directory
+4. Execute the command: `npm install`
+5. Execute the command to start backend server: `node server.js`
+6. Navigate to app directory in local machine and add config.json file
+7. Open new terminal and change to **app** directory
+8. Execute the command: `npm install`
+9. Execute the command to start the front end server: `npm run dev`
+10. Open the localhost link on the browser to view the application
+
 ## Object Model
 
 ```mermaid
@@ -216,30 +244,3 @@ classDiagram
   Events "0..n" *-- "1" Organization
   Comment "0..n" *-- "1" BlogPost
 ```
-
-## Steps to set up config.json
-This project requires a configuration file (config.json) to store Google Maps Api Key. This file is ignored by Git to ensure the key remains private.
-1. Create config.json in the app/src directory of the project.<br/>
-<img width="389" alt="config" src="https://github.com/Pal-96/care2share-finalproject/assets/119008696/80504f06-6a2c-4e6d-bab1-31a59dd5dfa8">
-<br/>
-2. Replace YOUR_API_KEY_HERE with the actual API key.<br/>
-3. Save the file.
-
-## Steps to set up .env
-This project requires a .env file to store the server port no. and your MongoDB connection parameters. This file is ignored by Git to ensure your connection is private.
-1. Create .env file in the service directory of the project.<br/>
-<img width="895" alt="env" src="https://github.com/Pal-96/care2share-finalproject/assets/119008696/f40e3345-e6db-4f85-ac84-53ad2a35115a">
-<br/>
-2. Replace the placeholders with actual data.<br/>
-3. Save the file.
-
-## Instructions to execute the project:
-1. Clone the repository
-2. Navigate to service directory in local machine and add .env file for MongoDB connection (port: 3000)
-3. Open terminal and change to **service** directory
-4. Execute the command: npm install
-5. Execute the command to start backend server: node server.js (Note: Message 'Server is running on port 3000' must be printed on terminal)
-6. Open new terminal and change to **app** directory
-7. Execute the command: npm install
-8. Execute the command to start the front end server: npm run dev
-9. Open the localhost link on the browser to view the application
