@@ -1,38 +1,16 @@
 # Care2Share
-## Description:
-Welcome to 'Care2Share', an innovative web application dedicated to combating food scarcity and hunger on a global scale. Our platform serves as a dynamic hub where individuals, organizations, and NGOs come together to share and collect surplus food, organize events, donate resources, and raise awareness about pressing issues surrounding hunger relief. With a focus on community engagement and collaboration, Care2Share empowers users to make a meaningful impact in the fight against hunger."
+## Overview:
 
 <img src="https://github.com/Pal-96/care2share-finalproject/assets/119008696/a247ade9-ad72-4c80-87bd-5a9352ae96c8" style="border: solid black;" alt="LandingPage">
 
 ## Key Features:
  
-1. User Authentication and Profiles:
- 
-Users can sign up as individuals or organizations, such as a person, hotels, restaurants, and NGOs.
-Each user has a personalized profile to manage their activities on the platform.
- 
-2. Surplus Food Sharing:
- 
-Individuals or businesses can post surplus food listings, specifying the location and the number of people it can feed.
-NGOs can search for available food listings based on location and place orders for pickup.
- 
-3. Donation Platform:
- 
-Users can make monetary donations to NGOs through integrated payment gateways, supporting their hunger relief campaigns.
- 
-4. Event Management:
- 
-NGOs can create and publish events for food distribution, allowing users to volunteer and participate in community initiatives.
-Users can search for events based on location and volunteer to contribute their time and resources.
- 
-5. Blogging and Awareness Campaigns:
- 
-Users can publish blogs addressing food scarcity and hunger relief, sharing insights, experiences, and solutions.
-The platform facilitates user engagement through likes and comments to amplify awareness efforts.
- 
-6. Email Notifications & Map Functionality:
-
-Users receive email notifications after creating Foodposts. NGO users get email notifications after booking the food post with map locations which leverages Google Map API and EmailJS.
+- **User Authentication & Profiles:** User can register as individual or NGO. Support secure password storing.
+- **Surplus Food Postings:** Individuals can post surplus food listings and associated details. NGOs can search for surplus food and place orders.
+- **Donation:** Users can make monetary donations to NGOs.
+- **Event Management:** NGOs can create events for food distribution. Users can volunteer or donate.
+- **Blogging & Awareness Campaigns:** Users can read, write, like, dislike, comment, update or delete blogs.
+- **Email Notifications & Map Functionality:** Users receive email notifications after creating Foodposts. NGO users get email notifications after booking the food post with map locations for pickup.
 
 ## Steps to set up config.json
 This project requires a configuration file (config.json) to store Google Maps Api Key. This file is ignored by Git to ensure the key remains private.
@@ -51,15 +29,15 @@ This project requires a .env file to store the server port no. and your MongoDB 
 3. Save the file.
 
 ## Instructions to execute the project:
-1. Clone the repository
+1. Clone the repository `git clone https://github.com/Pal-96/care2share.git`
 2. Navigate to service directory in local machine and add .env file for MongoDB connection (port: 3000)
-3. Open terminal and change to **service** directory
+3. Execute the command: `cd service`
 4. Execute the command: `npm install`
-5. Execute the command to start backend server: `node server.js`
+5. Execute the command: `node server.js`
 6. Navigate to app directory in local machine and add config.json file
-7. Open new terminal and change to **app** directory
+7. Open new terminal on project root directory and execute: `cd app`
 8. Execute the command: `npm install`
-9. Execute the command to start the front end server: `npm run dev`
+9. Execute the command: `npm run dev`
 10. Open the localhost link on the browser to view the application
 
 ## Object Model
